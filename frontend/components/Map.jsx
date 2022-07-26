@@ -11,7 +11,8 @@ const Map = () => {
     const [mapData, setMapData] = useState(null)
     const [isLoaded, setIsLoaded] = useState(false)
     const defaultCenter = [19.0299, 17.9281]
-
+    
+    /* Backend request fetching -> Disabled for deployment
     useEffect(() => {
         fetch('http://localhost:3000/api')
         .then((res) => res.json())
@@ -21,9 +22,10 @@ const Map = () => {
         })
         .catch((err) => console.log(err))
     }, [])
-
-    // console.log(mapData)
-    //const currentMap = useMap()
+    */
+    
+    const mapData =
+    
     return (
         isLoaded ? (
             <MapContainer 
