@@ -8,7 +8,7 @@ import 'leaflet/dist/leaflet.css'
 const Map = () => {
 
     const [map, setMap] = useState(null)
-    const [mapData, setMapData] = useState(null)
+    // const [mapData, setMapData] = useState(null)
     const [isLoaded, setIsLoaded] = useState(false)
     const defaultCenter = [19.0299, 17.9281]
     
