@@ -1,6 +1,6 @@
 # React Interactive Map
 An interactive and responsive map made with Leaflet, React, and supporting libraries. <br>
-This is how the final result looks: <br>
+This is how the final result looks: <br><br>
 <img src="map.png" alt="map" /><br><br>
 ------
 ## Steps to run the project
