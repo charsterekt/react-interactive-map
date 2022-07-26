@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import Legend from './Legend'
 import '../public/Map.css'
 import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap } from 'react-leaflet'
-import 'leaflet-fullscreen/dist/leaflet.fullscreen.js'
 import 'leaflet/dist/leaflet.css'
 
 const Map = () => {
@@ -128,7 +127,6 @@ const Map = () => {
     return (
         isLoaded ? (
             <MapContainer 
-                fullscreenControl={true} 
                 center={[defaultCenter[0], defaultCenter[1]]} 
                 zoom={3} 
                 scrollWheelZoom={true}
