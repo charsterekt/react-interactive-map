@@ -8,7 +8,7 @@ const Map = () => {
 
     const [map, setMap] = useState(null)
     // const [mapData, setMapData] = useState(null)
-    const [isLoaded, setIsLoaded] = useState(false)
+    const [isLoaded, setIsLoaded] = useState(true)
     const defaultCenter = [19.0299, 17.9281]
     
     /* Backend request fetching -> Disabled for deployment
