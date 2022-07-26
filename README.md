@@ -23,4 +23,4 @@ npm run dev
 * This should install the necessary packages and run a dev server on localhost:5173 which is the frontend
 * The map should be working at this stage. There is loading logic to prevent errors from null objects before fetching and mounting, but in case of unforseen errors, a refresh should work to fix the problem.
 <br>
-Frontend only has been deployed at: <a href="https://react-interactive-map.vercel.app/>https://react-interactive-map.vercel.app/</a>
+Frontend only has been deployed at: <a href="https://react-interactive-map.vercel.app">https://react-interactive-map.vercel.app/</a>
